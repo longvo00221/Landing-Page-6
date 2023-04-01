@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- favicon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Lucy Pet Care</title>
+  </head>
+  <body>
+    <container class="bg-[#E5E5E5]">
+      <header class="w-full sticky top-[-24px] pt-2 z-50 bg-white">
+        <div class="flex item-center py-5 wrapper justify-between">
+          <div class="logo flex items-center">
+            <img src="./assets/logo.png" alt="" />
+            <div class="font-bold text-lg text logo ml-2">Lucy</div>
+          </div>
+          <div class="navigate flex items-center">
+            <nav class="nav-item mr-7">
+              <a class="cursor-pointer h-full font-medium">Home</a>
+            </nav>
+            <nav class="nav-item mr-7">
+              <a class="cursor-pointer h-full font-medium">About</a>
+            </nav>
+            <nav class="nav-item mr-7">
+              <a class="cursor-pointer h-full font-medium">Services & Rates</a>
+            </nav>
+            <nav class="nav-item mr-7">
+              <a class="cursor-pointer h-full font-medium">Reviewa</a>
+            </nav>
+            <nav class="nav-item mr-7">
+              <a class="cursor-pointer h-full font-medium">Contacts us</a>
+            </nav>
+          </div>
+          <button
+            class="w-[117px] button-header rounded-3xl py-3 m-h-[50px] hover:bg-[#000958] hover:text-white font-semibold capitalize min-w-[117px]"
+          >
+            signup
+          </button>
+        </div>
+      </header>
+      <main class="mt-20">
+        <section id="hero">
+          <div class="wrapper flex items-center">
+            <div class="hero-left relative w-2/4">
+              <div
+                class="image-wrapper relative w-[388px] h-[488px] bg-[#FE997B] rounded-2xl flex justify-center items-end"
+              >
+                <img src="./assets/hero/hero1.png" alt="" />
+                <img
+                  class="absolute bottom-2 left-[-57px] -z-10"
+                  src="./assets/hero/deco1.png"
+                  alt=""
+                />
+                <img
+                  class="absolute top-4 right-[-40px] -z-10"
+                  src="./assets/hero/deco2.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="w-[186px] h-[244px]image-wrapper absolute right-[-20px] bottom-[-58px] bg-[#FAA7AD] rounded-2xl flex justify-center items-end"
+              >
+                <img src="./assets/hero/hero2.png" alt="" />
+              </div>
+              <div
+                class="absolute hero-modal w-[250px] h-auto left-[129px] bottom-[-94px] p-[14px] rounded-xl bg-white"
+              >
+                <div class="flex py-5 items-center">
+                  <img
+                    class="w-10 h-10 rounded-lg bg-[#FEC23F] mr-2"
+                    src="./assets/hero/hero3.png"
+                    alt=""
+                  />
+                  <div class="info">
+                    <p class="text-sm font-semibold text-[#181E52]">
+                      Pet Health
+                    </p>
+                    <img
+                      class="mt-[7px] mb-[4px]"
+                      src="./assets/hero/longbar.png"
+                      alt=""
+                    />
+                    <img src="./assets/hero/shortbar.png" alt="" />
+                  </div>
+                </div>
+                <div class="hero__seperate"></div>
+                <div class="flex py-5 items-center">
+                  <img
+                    class="w-10 h-10 rounded-lg bg-[ #C6E2FA] mr-2"
+                    src="./assets/hero/hero4.png"
+                    alt=""
+                  />
+                  <div class="info">
+                    <p class="text-sm font-semibold text-[#181E52]">Pet care</p>
+                    <img
+                      class="mt-[7px] mb-[4px]"
+                      src="./assets/hero/longbar.png"
+                      alt=""
+                    />
+                    <img src="./assets/hero/shortbar.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-right w-2/4 ml-[120px]">
+              <h1
+                class="text-[#000958] font-extrabold max-w-[517px] text-[66px]"
+              >
+                Established & Trusted Pet Care Service
+              </h1>
+              <p
+                class="text-[#656689] max-w-[391px] text-base font-normal mt-6"
+              >
+                Discover a wide variety of Pawsitive services to choose from,
+                including daycare, private walks, office duty and spa.
+              </p>
+              <div class="flex items-center mt-9">
+                <button
+                  class="min-w-[189px] hover:opacity-80 py-5 button-hero-content flex justify-center items-center bg-[#FF5B2E] text-white"
+                >
+                  Book a Meet
+                  <div
+                    class="bg-white w-5 h-5 rounded-full ml-[10px] grid place-items-center"
+                  >
+                    <i
+                      class="text-[#FD5056] text-[8px] fa-solid fa-angle-right"
+                    ></i>
+                  </div>
+                </button>
+                <a
+                  href=""
+                  class="underline hover:opacity-80 text-[#000958] ml-6"
+                  >Schedule a Call</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="mt-[170px]">
+          <div class="wrapper flex items-end">
+            <div class="w-2/4">
+              <p class="text-base font-semibold text-[#5E6085] mb-[15px]">
+                // about //
+              </p>
+              <h1
+                class="text-[#000958] text-[52px] font-bold mb-6 max-w-[446px]"
+              >
+                Best Agency For Your Pet.
+              </h1>
+              <p
+                class="text-[#656689] max-w-[431px] font-normal text-base mb-[54px]"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="flex item-center flex-wrap">
+                <div class="flex w-2/4 mb-8">
+                  <img
+                    src="./assets/about/check.png"
+                    class="mr-[10px] check-icon-about object-cover"
+                    alt=""
+                  />
+                  <span class="text-[#48496A] font-medium text-lg"
+                    >Certified Groomer</span
+                  >
+                </div>
+                <div class="flex w-2/4 mb-8">
+                  <img
+                    src="./assets/about/check.png"
+                    class="mr-[10px] check-icon-about object-cover"
+                    alt=""
+                  />
+                  <span class="text-[#48496A] font-medium text-lg">
+                    Animal Lover</span
+                  >
+                </div>
+                <div class="flex w-2/4 mb-8">
+                  <img
+                    src="./assets/about/check.png"
+                    class="mr-[10px] check-icon-about object-cover"
+                    alt=""
+                  />
+                  <span class="text-[#48496A] font-medium text-lg">
+                    14+ Years Experience</span
+                  >
+                </div>
+                <div class="flex w-2/4 mb-8">
+                  <img
+                    src="./assets/about/check.png"
+                    class="mr-[10px] check-icon-about object-cover"
+                    alt=""
+                  />
+                  <span class="text-[#48496A] font-medium text-lg">
+                    Pet Parent Of 3 Dogs</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="w-2/4 ml-[200px] relative">
+              <div class="flex items-end justify-center">
+                <div class="about-image relative flex items-center">
+                  <img
+                    class="absolute bottom-0"
+                    src="./assets/about/about.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="bg-[#5BD6E2] shadow-image-about left-[-115px] top-[-50px] py-3 px-5 absolute w-[136px] h-[156px] text-center"
+              >
+                <img
+                  class="absolute top-[-40px] left-[91px]"
+                  src="./assets/about/Union.png "
+                  alt=""
+                />
+                <h1 class="text-white font-bold text-[42px] mb-2">20+</h1>
+                <p class="text-[#C6F4F9] font-normal text-sm">
+                  Years Experience
+                </p>
+              </div>
+              <img
+                src="./assets/about/rain.png"
+                class="absolute top-[-63px] right-[-63px] -z-10"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <section id="features" class="mt-[150px]">
+          <div class="wrapper flex">
+            <div class="w/2/4">
+              <div class="relative">
+                <div
+                  class="features-background image-wrapper flex items-end justify-center"
+                >
+                  <img src="./assets/features/features.png" alt="" />
+                </div>
+                <img
+                  class="absolute top-3 right-[63px]"
+                  src="./assets/features/Vector 10.png"
+                  alt=""
+                />
+                <img
+                  class="absolute top-[-11px] right-[13px]"
+                  src="./assets/features/Vector 8.png"
+                  alt=""
+                />
+                <img
+                  class="absolute top-[33px] right-[-15px]"
+                  src="./assets/features/Vector 9.png"
+                  alt=""
+                />
+                <img
+                  class="absolute bottom-[-55px] right-[-42px]"
+                  src="./assets/features/circle.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="w/2/4 ml-[127px]">
+              <h1
+                class="text-[#000958] text-[52px] font-bold max-w-[543px] mb-[24px]"
+              >
+                Taking A Vacation? So Is Your Pet.
+              </h1>
+              <p
+                class="text-[#656689] max-w-[511px] font-normal text-base mb-[52px]"
+              >
+                We offer long-term and short-term boarding. Every dog has its
+                own private, spacious room and daily individual time in our
+                large play yard.
+              </p>
+              <div>
+                <div class="mb-[36px]">
+                  <div class="flex items-center">
+                    <div class="flex items-center mr-[56px]">
+                      <img src="./assets/features/icon1.png" alt="" />
+                      <p class="text-[#48496A] text-lg font-semibold">
+                        Pet Boarding
+                      </p>
+                    </div>
+                    <div class="flex items-center mr-[56px]">
+                      <img
+                        class="mb-[-10px]"
+                        src="./assets/features/icon2.png"
+                        alt=""
+                      />
+                      <p class="text-[#48496A] text-lg font-semibold">
+                        Pet Daycare
+                      </p>
+                    </div>
+                    <div class="flex items-center mr-[56px]">
+                      <img src="./assets/features/icon3.png" alt="" />
+                      <p class="text-[#48496A] text-lg font-semibold">
+                        Pet Transport
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tab-line w-[557px] bg-[#ffeee7]">
+                    <div class="tab-line-active w-[95px]"></div>
+                  </div>
+                </div>
+                <p
+                  class="mb-[32px] text-[#656689] max-w-[391px] text-sm font-normal"
+                >
+                  While you're on holiday, here's where your furry friends will
+                  spend their time.
+                </p>
+                <a
+                  href=""
+                  class="text-[#FF5D31] font-medium text-base underline"
+                  >View more</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="service" class="mt-[130px] bg-[#FFF6ED]">
+          <div class="wrapper py-[68px]">
+            <p
+              class="text-[#5E6085] text-base font-semibold mb-[15px] block text-center"
+            >
+              What we do for you?
+            </p>
+            <h1 class="block text-center text-[#000958] text-[52px] font-bold">
+              Our Services
+            </h1>
+            <div class="flex justify-between mt-[85px]">
+              <div class="content-left">
+                <div
+                  class="w-[294px] max-w-[294px] h-[208px] rounded-xl bg-white p-7 mb-6"
+                >
+                  <h1
+                    class="text-[#000958] service-item-title text-[22px] font-semibold mb-[18px]"
+                  >
+                    Puppy Sitting
+                  </h1>
+                  <p
+                    class="max-w-[244px] text-[#656689] text-sm font-normal mb-[24px]"
+                  >
+                    Helping your new pup to be a good boy or girl isn’t always
+                    easy, but we’re here to help.
+                  </p>
+                  <button class="text-[#34396A] flex items-center">
+                    Read More
+                    <img
+                      class="ml-[6px]"
+                      src="./assets/service/arrowup (1).png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+                <div
+                  class="w-[294px] max-w-[294px] h-[208px] rounded-xl bg-white p-7 mb-6"
+                >
+                  <h1
+                    class="text-[#000958] service-item-title text-[22px] font-semibold mb-[18px]"
+                  >
+                    Dog Walking
+                  </h1>
+                  <p
+                    class="max-w-[244px] text-[#656689] text-sm font-normal mb-[24px]"
+                  >
+                    Choose from a 30, 45, or 60-minute visit to give your pet
+                    their daily dose of fun-filled.
+                  </p>
+                  <button class="text-[#34396A] flex items-center">
+                    Read More
+                    <img
+                      class="ml-[6px]"
+                      src="./assets/service/arrowup (1).png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+                <div
+                  class="w-[294px] max-w-[294px] h-[208px] rounded-xl bg-white p-7 mb-6"
+                >
+                  <h1
+                    class="text-[#000958] service-item-title text-[22px] font-semibold mb-[18px]"
+                  >
+                    Pet Sitting
+                  </h1>
+                  <p
+                    class="max-w-[244px] text-[#656689] text-sm font-normal mb-[24px]"
+                  >
+                    While you’re away we can make sure your pet has all the
+                    food, water, exercise, and, of course.
+                  </p>
+                  <button class="text-[#34396A] flex items-center">
+                    Read More
+                    <img
+                      class="ml-[6px]"
+                      src="./assets/service/arrowup (1).png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+              <div
+                class="image-center pt-[50px] text-center flex flex-col justify-end"
+              >
+                <div class="image-container-service flex relative items-end">
+                  <img
+                    class="absolute"
+                    src="./assets/service/service.png"
+                    alt=""
+                  />
+                </div>
+                <button
+                  class="min-w-[214px] rounded-[31px] text-[#FF5B2E] py-3 mt-[45px]"
+                  style="
+                    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+                    border: 1px solid #ff5b2e;
+                  "
+                >
+                  View All Services
+                </button>
+              </div>
+              <div class="content-right">
+                <div
+                  class="w-[294px] max-w-[294px] h-[208px] rounded-xl bg-white p-7 mb-6"
+                >
+                  <h1
+                    class="text-[#000958] service-item-title text-[22px] font-semibold mb-[18px]"
+                  >
+                    Overnight Care
+                  </h1>
+                  <p
+                    class="max-w-[244px] text-[#656689] text-sm font-normal mb-[24px]"
+                  >
+                    If you’re away for the night, we can stay the night or stop
+                    by in the evening and morning.
+                  </p>
+                  <button class="text-[#34396A] flex items-center">
+                    Read More
+                    <img
+                      class="ml-[6px]"
+                      src="./assets/service/arrowup (1).png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+                <div
+                  class="w-[294px] max-w-[294px] h-[208px] rounded-xl bg-white p-7 mb-6"
+                >
+                  <h1
+                    class="text-[#000958] service-item-title text-[22px] font-semibold mb-[18px]"
+                  >
+                    Pet Taxi
+                  </h1>
+                  <p
+                    class="max-w-[244px] text-[#656689] text-sm font-normal mb-[24px]"
+                  >
+                    Does your pet need a lift to the groomers, vet, or dog park?
+                    We’ve got their tail covered.
+                  </p>
+                  <button class="text-[#34396A] flex items-center">
+                    Read More
+                    <img
+                      class="ml-[6px]"
+                      src="./assets/service/arrowup (1).png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+                <div
+                  class="w-[294px] max-w-[294px] h-[208px] rounded-xl bg-white p-7 mb-6"
+                >
+                  <h1
+                    class="text-[#000958] service-item-title text-[22px] font-semibold mb-[18px]"
+                  >
+                    Pet Medical Admin
+                  </h1>
+                  <p
+                    class="max-w-[244px] text-[#656689] text-sm font-normal mb-[24px]"
+                  >
+                    Our team of experienced professionals can help with
+                    everything from pills to injections.
+                  </p>
+                  <button class="text-[#34396A] flex items-center">
+                    Read More
+                    <img
+                      class="ml-[6px]"
+                      src="./assets/service/arrowup (1).png"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="team" class="mt-[130px]">
+          <div class="wrapper flex flex-col items-center">
+            <p
+              class="text-[#5E6085] font-semibold text-base block text-center mb-[15px]"
+            >
+              Pet Care Staff
+            </p>
+            <h1
+              class="block text-center text-[#000958] text-[52px] font-bold mb-[45px]"
+            >
+              Meet Our Groomers
+            </h1>
+            <div class="mb-[50px] flex justify-between w-full">
+              <div class="flex flex-col justify-center">
+                <div
+                  class="team-image relative mem-1 flex items-end text-center"
+                >
+                  <img class="" src="./assets/team/team1.png" alt="" />
+                  <img
+                    class="absolute bottom-0 left-[-12px] max-w-[110%]"
+                    src="./assets/team/bd1.png"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                >
+                  Pet Trainer
+                </p>
+                <h1
+                  class="text-[#000958] block text-center font-semibold text-2xl"
+                >
+                  Meghan Samit
+                </h1>
+              </div>
+
+              <div class="flex flex-col justify-center">
+                <div
+                  class="team-image relative mem-1 flex items-end text-center"
+                >
+                  <img class="" src="./assets/team/team2.png" alt="" />
+                  <img
+                    class="absolute top-0 left-[-12px] max-w-[110%]"
+                    src="./assets/team/bd2.png"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                >
+                  Veterinarian
+                </p>
+                <h1
+                  class="text-[#000958] block text-center font-semibold text-2xl"
+                >
+                  Alissa Silva
+                </h1>
+              </div>
+
+              <div class="flex flex-col justify-center">
+                <div
+                  class="team-image relative mem-1 flex items-end text-center"
+                >
+                  <img class="" src="./assets/team/team3.png" alt="" />
+                  <img
+                    class="absolute bottom-0 left-[-12px] max-w-[110%]"
+                    src="./assets/team/bd3.png"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                >
+                  Veterinarian
+                </p>
+                <h1
+                  class="text-[#000958] block text-center font-semibold text-2xl"
+                >
+                  Cindy Harris
+                </h1>
+              </div>
+
+              <div class="flex flex-col justify-center">
+                <div
+                  class="team-image relative mem-1 flex items-end text-center"
+                >
+                  <img class="" src="./assets/team/team4.png" alt="" />
+                  <img
+                    class="absolute top-0 left-[-12px] max-w-[110%]"
+                    src="./assets/team/bd4.png"
+                    alt=""
+                  />
+                </div>
+                <p
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                >
+                  Animal Caretaker
+                </p>
+                <h1
+                  class="text-[#000958] block text-center font-semibold text-2xl"
+                >
+                  Animal Caretaker
+                </h1>
+              </div>
+            </div>
+            <button
+              class="button-view-team min-w-[193px] p-3 text-[#FF5B2E] text-center block"
+            >
+              View All Team
+            </button>
+          </div>
+        </section>
+        <section id="pricing" class="mt-[130px] bg-[#FFF6ED]">
+          <div class="wrapper py-[86px] flex items-center flex-col">
+            <h1 class="block mb-[24px] text-[#000958] text-[52px] font-bold">
+              The Best Choice
+            </h1>
+            <p
+              class="block max-w-[709px] text-[#656689] mb-[38px] text-base text-center font-normal"
+            >
+              We offer long-term and short-term boarding. Every dog has its own
+              private, spacious room and daily individual time in our large play
+              yard.
+            </p>
+            <div class="button-price-wrapper flex items-center relative">
+              <img
+                class="absolute right-[-100px] top-[-30px]"
+                src="./assets/pricing/Group 84.png"
+                alt=""
+              />
+              <button class="min-w-[131px] py-3 button-price">Monthly</button>
+              <button class="min-w-[131px] py-3 button-price active">
+                Yearly
+              </button>
+            </div>
+            <div class="flex mt-[56px] items-center justify-center w-full">
+              <div class="w-[302px] h-auto rounded-3xl bg-white p-7">
+                <p class="text-[#FF5B2E] text-xs font-normal mb-2">Basic</p>
+                <p class="text-[#3F4065] text-lg font-semibold mb-3">
+                  Day care
+                </p>
+                <h2 class="text-[#000958] font-bold text-[33px] mb-[22px]">
+                  $150
+                </h2>
+                <button
+                  class="min-w-[246px] py-3 text-[#FF5B2E99] mb-6 hover:bg-[#FF5B2E99] hover:text-white"
+                  style="
+                    border: 1px solid rgba(255, 91, 46, 0.6);
+                    border-radius: 39px;
+                  "
+                >
+                  Purchase Now
+                </button>
+                <ul>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Single room
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Socialist
+                    Exercise
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Custom Meals
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Spa and
+                    Grooming
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E] opacity-40">&#x2713;</span>
+                    Excercise 2x
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E] opacity-40">&#x2713;</span>
+                    Custom Meals
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E] opacity-40">&#x2713;</span>
+                    Grooming 2x
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[302px] h-auto rounded-3xl mx-[44px] bg-white p-7">
+                <p class="text-[#FF5B2E] text-xs font-normal mb-2">Exclusive</p>
+                <p class="text-[#3F4065] text-lg font-semibold mb-3">2X Care</p>
+                <h2 class="text-[#000958] font-bold text-[33px] mb-[22px]">
+                  $199
+                </h2>
+                <button
+                  class="min-w-[246px] py-3 text-[#FF5B2E99] mb-6 hover:bg-[#FF5B2E99] hover:text-white"
+                  style="
+                    border: 1px solid rgba(255, 91, 46, 0.6);
+                    border-radius: 39px;
+                  "
+                >
+                  Purchase Now
+                </button>
+                <ul>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Single room
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Socialist
+                    Exercise
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Custom Meals
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Spa and
+                    Grooming
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E] opacity-40">&#x2713;</span>
+                    Excercise 2x
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E] opacity-40">&#x2713;</span>
+                    Custom Meals
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E] opacity-40">&#x2713;</span>
+                    Grooming 2x
+                  </li>
+                </ul>
+              </div>
+              <div class="w-[302px] h-auto rounded-3xl bg-white p-7">
+                <p class="text-[#FF5B2E] text-xs font-normal mb-2">Platinum</p>
+                <p class="text-[#3F4065] text-lg font-semibold mb-3">4X Care</p>
+                <h2 class="text-[#000958] font-bold text-[33px] mb-[22px]">
+                  $299
+                </h2>
+                <button
+                  class="min-w-[246px] py-3 text-[#FF5B2E99] mb-6 hover:bg-[#FF5B2E99] hover:text-white"
+                  style="
+                    border: 1px solid rgba(255, 91, 46, 0.6);
+                    border-radius: 39px;
+                  "
+                >
+                  Purchase Now
+                </button>
+                <ul>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Single room
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Socialist
+                    Exercise
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Custom Meals
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Spa and
+                    Grooming
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Excercise 2x
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Custom Meals
+                  </li>
+                  <li class="text-[#656689] text-sm font-normal mb-[18px]">
+                    <span class="text-[#FF5B2E]">&#x2713;</span> Grooming 2x
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="reviews"></section>
+        <section id="blog">
+          <div class="wrapper py-[131px]">
+            <div class="flex items-center justify-between">
+              <h1 class="text-[#000958] text-[52px] font-bold">Our Blog</h1>
+              <div>
+                <p
+                  class="max-w-[350px] text-[#656689] font-normal text-base mb-6"
+                >
+                  Stay up to date with the latest tech trands and news in the
+                  pets.
+                </p>
+                <button
+                  class="min-w-[182px] py-3 text-[#FF5B2E] font-semibold text-base rounded-[31px]"
+                  style="
+                    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+                    border: 1px solid #ff5b2e;
+                  "
+                >
+                  View All Blog
+                </button>
+              </div>
+            </div>
+            <div class="mt-[54px]">
+              <div class="flex items-center justify-between">
+                <div>
+                  <div
+                    class="bg-[#90CCFF] mb-[28px] w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
+                  >
+                    <p class="text-[#FFFFFF] text-sm font-normal">
+                      21 june 2021
+                    </p>
+                    <img
+                      class="absolute bottom-0 right-0"
+                      src="./assets/blog/blog1.png"
+                      alt=""
+                    />
+                  </div>
+                  <h1
+                    class="text-[#000958] font-semibold text-[22px] max-w-[338px] mb-4"
+                  >
+                    Building Bonds and Trusting Relationships with Your Pets.
+                  </h1>
+                  <p class="text-[#656689] max-w-[351px] font-normal text-sm">
+                    There isn’t a relationship around that can survive without
+                    trust. My relationship with my dog Peyton is deep...
+                  </p>
+                </div>
+                <div>
+                  <div
+                    class="bg-[#FF997E] mb-[28px] w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
+                  >
+                    <p class="text-[#FFFFFF] text-sm font-normal">
+                      28 june 2021
+                    </p>
+                    <img
+                      class="absolute bottom-0 right-0"
+                      src="./assets/blog/blog2.png"
+                      alt=""
+                    />
+                  </div>
+                  <h1
+                    class="text-[#000958] font-semibold text-[22px] max-w-[338px] mb-4"
+                  >
+                    Celebrity pet photographer Grace Chon on taking ...
+                  </h1>
+                  <p class="text-[#656689] max-w-[351px] font-normal text-sm">
+                    Doting pet parents have a relentless need to constantly
+                    photograph every adorable pet moment...
+                  </p>
+                </div>
+                <div>
+                  <div
+                    class="bg-[#5BD6E2] mb-[28px] w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
+                  >
+                    <p class="text-[#FFFFFF] text-sm font-normal">
+                      10 july 2021
+                    </p>
+                    <img
+                      class="absolute bottom-0 right-0"
+                      src="./assets/blog/blog3.png"
+                      alt=""
+                    />
+                  </div>
+                  <h1
+                    class="text-[#000958] font-semibold text-[22px] max-w-[338px] mb-4"
+                  >
+                    5 Simple Tricks To Create A More Conscious ...
+                  </h1>
+                  <p class="text-[#656689] max-w-[351px] font-normal text-sm">
+                    It is easy to forget that animals are living creatures with
+                    a beating heart.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+    
+          <div class="flex">
+            <div class="w-2/4  pt-[120px] pb-[10px] px-[114px]  bg-[#FFF6ED]">
+              <div class="logo flex items-center mb-[40px]">
+                <img src="./assets/logo.png" alt="" />
+                <div class="font-bold text-lg text logo ml-2">Lucy</div>
+              </div>
+              <form class="flex relative max-w-[268px] mb-[68px]">
+                <input
+                class="rounded-[23px] w-[268px] py-3 px-3 bg-white"
+                style="border: 1px solid rgba(255, 91, 46, 0.25);"
+                  type="text"
+                  placeholder="Enter Your Mail"
+                  name=""
+                  id=""
+                />
+                <button
+                  type="submit"
+                  style="box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3)"
+                  class="w-[50px] absolute right-0 h-[50px] rounded-full flex items-center justify-center bg-[#FF5B2E]"
+                >
+                  <span class="text-white font-semibold text-2xl">&rarr;</span>
+                </button>
+              </form>
+              <div>
+                <p class="text-[#000958] font-semibold text-lg mb-4">Follow Us</p>
+                <div class="flex">
+                  <a
+                    href=""
+                    class="w-[32px] mr-4 h-[32px] rounded-full flex item-center justify-center bg-white"
+                    style="
+                      box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+                    "
+                  >
+                    <i class=" text-[#000958] w-4 h-4 flex m-auto fa-brands fa-facebook"></i
+                  ></a>
+                  <a
+                    href=""
+                    class="w-[32px] mr-4 h-[32px] rounded-full flex item-center justify-center bg-white"
+                    style="
+                      box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+                    "
+                    ><i class=" text-[#000958] w-4 h-4 flex m-auto fa-brands fa-twitter"></i
+                  ></a>
+                  <a
+                    href=""
+                    class="w-[32px] mr-4 h-[32px] rounded-full flex item-center justify-center bg-white"
+                    style="
+                      box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+                    "
+                    ><i class=" text-[#000958] w-4 h-4 flex m-auto fa-brands fa-linkedin"></i
+                  ></a>
+                  <a
+                    href=""
+                    class="w-[32px] mr-4 h-[32px] rounded-full flex item-center justify-center bg-white"
+                    style="
+                      box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+                    "
+                  >
+                    <i class=" text-[#000958] w-4 h-4 flex m-auto fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="w-2/4 pt-[52px]">
+              <div class="flex px-[130px]  flex-wrap">
+                <div class="w-full md:w-2/4 mb-[86px]">
+                  <h2 class="text-[#000958] text-lg font-semibold mb-[14px]">Explore</h2>
+                  <div>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">About us</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Service</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Our Team</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Adopt Pet</li>
+                  </div>
+                </div>
+                <div class="w-full md:w-2/4 mb-[86px]">
+                  <h2 class="text-[#000958] text-lg font-semibold mb-[14px]">Useful links</h2>
+                  <div>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Faqs</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Shop</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Privacy</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Site Map</li>
+                  </div>
+                </div>
+                <div class="w-full md:w-2/4 mb-[86px]">
+                  <h2 class="text-[#000958] text-lg font-semibold mb-[14px]">Contact Info</h2>
+                  <div>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Abc@gmail.com</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">0123934501</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">New York , Racoon</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Adopt Pet</li>
+                  </div>
+                </div>
+                <div class="w-full md:w-2/4 mb-[86px]">
+                  <h2 class="text-[#000958] text-lg font-semibold mb-[14px]">Opening Time</h2>
+                  <div>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Mon- Fri : 7AM-10PM</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Satur:8AM-8PM</li>
+                    <li class="text-sm mb-3 text-[#656689] font-normal">Sun: 7AM -12AM </li>
+                  </div>
+                </div>
+              </div>
+              <p class="ml-[22px] text-[#656689] text-xs font-normal mb-[48px]">Copyright & Design By Uihut</p>
+            </div>
+
+          </div>
+  
+      </footer>
+    </container>
+    <script>
+      const $ = document.querySelector.bind(document);
+      const $$ = document.querySelectorAll.bind(document);
+      const buttonPrice = $$(".button-price");
+
+      buttonPrice.forEach((button) => {
+        button.onclick = function () {
+          $(".button-price.active").classList.remove("active");
+          this.classList.add("active");
+        };
+      });
+    </script>
+  </body>
+</html>

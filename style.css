@@ -1,0 +1,148 @@
+:root {
+    --primary-text: #000958;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+ul,
+li {
+    list-style: none;
+}
+button {
+    border: none;
+    background: transparent;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.wrapper {
+    width: 1170px;
+    max-width: calc(100% - 135px);
+    margin: 0 auto;
+}
+
+.logo {
+    color: #000958;
+}
+
+.nav-item {
+    color: #5e6085;
+}
+.nav-item:hover {
+    color: #000958;
+}
+.button-header {
+    border: 1px solid #000958;
+}
+.image-wrapper {
+    border: 1px solid #fff;
+}
+.hero-modal {
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+}
+.hero__seperate {
+    border: 2px solid #f2f2f2;
+    width: 222px;
+    height: 1px;
+}
+
+.button-hero-content {
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+    border-radius: 31px;
+}
+.check-icon-about {
+    box-shadow: 0px 4px 15px -3px rgba(255, 93, 49, 0.69);
+}
+
+.about-image {
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+    box-shadow: 11px 18px 65px rgba(255, 155, 121, 0.12);
+    border-radius: 16px;
+    width: 494px;
+    height: 336px;
+}
+.shadow-image-about {
+    box-shadow: -15px 26px 48px rgba(85, 240, 255, 0.17);
+    border-radius: 10px;
+}
+
+.features-background {
+    width: 458px;
+    height: 500px;
+
+    background: linear-gradient(180deg, #c6e2fa 0%, #94c2ea 100%);
+    border: 2px solid #ffffff;
+    box-shadow: 0px 17px 77px -8px rgba(190, 165, 139, 0.17);
+    border-radius: 18px;
+}
+
+.tab-line-active {
+    border: 2px solid #ff5b2e;
+    border-radius: 2px;
+}
+.service-item-title {
+    border-left: 3px solid #ff5b2e;
+    padding-left: 10px;
+}
+.image-container-service {
+    width: 410px;
+    height: 350px;
+
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+    border-radius: 10px;
+}
+
+.button-view-team {
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+    border-radius: 31px;
+    border: 1px solid #ff5b2e;
+}
+.team-image {
+    width: 234px;
+    height: 266px;
+    border-radius: 129.5px;
+}
+.mem-1 {
+    background: linear-gradient(180deg, #90ccff 0%, #59a8eb 95.96%);
+}
+.mem-2 {
+    background: linear-gradient(180deg, #ff997e 0%, #f3752e 100%);
+}
+
+.mem-3 {
+    background: linear-gradient(180deg, #fabf3e 0%, #ffa14a 100%);
+}
+.mem-4 {
+    background: linear-gradient(180deg, #5bd6e2 0%, #00a7cc 100%);
+}
+
+.button-price-wrapper {
+    width: 276px;
+    height: 56px;
+
+    opacity: 0.6;
+    border: 1px solid #ff5b2e;
+    border-radius: 31px;
+}
+.button-price{
+border-radius: 31px;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: #FF5B2E
+}
+
+.active{
+    background: #FF5B2E;
+    height: 100%;
+    color: #fff;
+    width: 100%;
+    transition: all .1s ease;
+}
