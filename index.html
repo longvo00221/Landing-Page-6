@@ -217,8 +217,8 @@
           </div>
         </section>
         <section id="about" class="mt-[170px]">
-          <div class="wrapper flex items-end">
-            <div class="w-2/4">
+          <div class="wrapper flex flex-col sm:items-center lg:flex-row items-end">
+            <div class="lg:w-2/4 w-full ">
               <p class="text-base font-semibold text-[#5E6085] mb-[15px]">
                 // about //
               </p>
@@ -276,7 +276,7 @@
                 </div>
               </div>
             </div>
-            <div class="w-2/4 ml-[200px] relative">
+            <div class="w-2/4 lg:ml-[200px] md:mt-10 sm:mt-10 relative">
               <div class="flex items-end justify-center">
                 <div class="about-image relative flex items-center">
                   <img
@@ -353,14 +353,14 @@
               </p>
               <div>
                 <div class="mb-[36px]">
-                  <div class="flex items-center">
-                    <div class="flex items-center mr-[56px]">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center">
                       <img src="./assets/features/icon1.png" alt="" />
                       <p class="text-[#48496A] text-lg font-semibold">
                         Pet Boarding
                       </p>
                     </div>
-                    <div class="flex items-center mr-[56px]">
+                    <div class="flex items-center">
                       <img
                         class="mb-[-10px]"
                         src="./assets/features/icon2.png"
@@ -370,7 +370,7 @@
                         Pet Daycare
                       </p>
                     </div>
-                    <div class="flex items-center mr-[56px]">
+                    <div class="flex items-center">
                       <img src="./assets/features/icon3.png" alt="" />
                       <p class="text-[#48496A] text-lg font-semibold">
                         Pet Transport
@@ -483,7 +483,7 @@
               >
                 <div class="image-container-service flex relative items-end">
                   <img
-                    class="absolute"
+                    class="absolute max-w-[110%] w-[110%] left-[-20px]"
                     src="./assets/service/service.png"
                     alt=""
                   />
@@ -584,8 +584,8 @@
             >
               Meet Our Groomers
             </h1>
-            <div class="mb-[50px] flex justify-between w-full">
-              <div class="flex flex-col justify-center">
+            <div class="mb-[50px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 items-center justify-between w-full">
+              <div class="flex flex-col justify-center mx-auto sm:mb-20 items-center">
                 <div
                   class="team-image relative mem-1 flex items-end text-center"
                 >
@@ -597,18 +597,18 @@
                   />
                 </div>
                 <p
-                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block  text-sm"
                 >
                   Pet Trainer
                 </p>
                 <h1
-                  class="text-[#000958] block text-center font-semibold text-2xl"
+                  class="text-[#000958] block  font-semibold text-2xl"
                 >
                   Meghan Samit
                 </h1>
               </div>
 
-              <div class="flex flex-col justify-center">
+              <div class="flex flex-col justify-center mx-auto sm:mb-20 items-center">
                 <div
                   class="team-image relative mem-1 flex items-end text-center"
                 >
@@ -620,18 +620,18 @@
                   />
                 </div>
                 <p
-                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block  text-sm"
                 >
                   Veterinarian
                 </p>
                 <h1
-                  class="text-[#000958] block text-center font-semibold text-2xl"
+                  class="text-[#000958] block  font-semibold text-2xl"
                 >
                   Alissa Silva
                 </h1>
               </div>
 
-              <div class="flex flex-col justify-center">
+              <div class="flex flex-col justify-center mx-auto sm:mb-20 items-center">
                 <div
                   class="team-image relative mem-1 flex items-end text-center"
                 >
@@ -643,18 +643,18 @@
                   />
                 </div>
                 <p
-                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block  text-sm"
                 >
                   Veterinarian
                 </p>
                 <h1
-                  class="text-[#000958] block text-center font-semibold text-2xl"
+                  class="text-[#000958] block  font-semibold text-2xl"
                 >
                   Cindy Harris
                 </h1>
               </div>
 
-              <div class="flex flex-col justify-center">
+              <div class="flex flex-col justify-center mx-auto sm:mb-20 items-center">
                 <div
                   class="team-image relative mem-1 flex items-end text-center"
                 >
@@ -666,12 +666,12 @@
                   />
                 </div>
                 <p
-                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block text-center text-sm"
+                  class="mt-[34px] mb-[14px] text-[#656689] font-normal block  text-sm"
                 >
                   Animal Caretaker
                 </p>
                 <h1
-                  class="text-[#000958] block text-center font-semibold text-2xl"
+                  class="text-[#000958] block  font-semibold text-2xl"
                 >
                   Animal Caretaker
                 </h1>
@@ -702,12 +702,12 @@
                 src="./assets/pricing/Group 84.png"
                 alt=""
               />
-              <button class="min-w-[131px] py-3 button-price">Monthly</button>
-              <button class="min-w-[131px] py-3 button-price active">
+              <button class="min-w-[131px] py-3 transition duration-500 ease-in-out button-price">Monthly</button>
+              <button class="min-w-[131px] py-3 transition duration-500 ease-in-out button-price active">
                 Yearly
               </button>
             </div>
-            <div class="flex mt-[56px] items-center justify-center w-full">
+            <div class="grid grid-cols-1  md:grid-cols-3 mx-auto justify-items-center gap-10 mt-[56px] items-center justify-center w-full">
               <div class="w-[302px] h-auto rounded-3xl bg-white p-7">
                 <p class="text-[#FF5B2E] text-xs font-normal mb-2">Basic</p>
                 <p class="text-[#3F4065] text-lg font-semibold mb-3">
@@ -754,7 +754,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="w-[302px] h-auto rounded-3xl mx-[44px] bg-white p-7">
+              <div class="w-[302px] h-auto rounded-3xl  bg-white p-7">
                 <p class="text-[#FF5B2E] text-xs font-normal mb-2">Exclusive</p>
                 <p class="text-[#3F4065] text-lg font-semibold mb-3">2X Care</p>
                 <h2 class="text-[#000958] font-bold text-[33px] mb-[22px]">
@@ -866,10 +866,10 @@
               </div>
             </div>
             <div class="mt-[54px]">
-              <div class="flex items-center justify-between">
-                <div>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 items-center justify-between">
+                <div class="w-full">
                   <div
-                    class="bg-[#90CCFF] mb-[28px] w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
+                    class="bg-[#90CCFF] mx-auto mb-[28px] w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
                   >
                     <p class="text-[#FFFFFF] text-sm font-normal">
                       21 june 2021
@@ -881,18 +881,18 @@
                     />
                   </div>
                   <h1
-                    class="text-[#000958] font-semibold text-[22px] max-w-[338px] mb-4"
+                    class="text-[#000958] mx-auto font-semibold text-[22px] max-w-[338px] mb-4"
                   >
                     Building Bonds and Trusting Relationships with Your Pets.
                   </h1>
-                  <p class="text-[#656689] max-w-[351px] font-normal text-sm">
+                  <p class="text-[#656689] mx-auto max-w-[351px] font-normal text-sm">
                     There isn’t a relationship around that can survive without
                     trust. My relationship with my dog Peyton is deep...
                   </p>
                 </div>
-                <div>
+                <div class="w-full">
                   <div
-                    class="bg-[#FF997E] mb-[28px] w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
+                    class="bg-[#FF997E] mb-[28px] mx-auto w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
                   >
                     <p class="text-[#FFFFFF] text-sm font-normal">
                       28 june 2021
@@ -904,18 +904,18 @@
                     />
                   </div>
                   <h1
-                    class="text-[#000958] font-semibold text-[22px] max-w-[338px] mb-4"
+                    class="text-[#000958] mx-auto font-semibold text-[22px] max-w-[338px] mb-4"
                   >
                     Celebrity pet photographer Grace Chon on taking ...
                   </h1>
-                  <p class="text-[#656689] max-w-[351px] font-normal text-sm">
+                  <p class="text-[#656689] mx-auto max-w-[351px] font-normal text-sm">
                     Doting pet parents have a relentless need to constantly
                     photograph every adorable pet moment...
                   </p>
                 </div>
-                <div>
+                <div class="w-full">
                   <div
-                    class="bg-[#5BD6E2] mb-[28px] w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
+                    class="bg-[#5BD6E2] mb-[28px] mx-auto w-[358px] h-[362px] rounded-[24px] relative py-6 px-[36px]"
                   >
                     <p class="text-[#FFFFFF] text-sm font-normal">
                       10 july 2021
@@ -927,11 +927,11 @@
                     />
                   </div>
                   <h1
-                    class="text-[#000958] font-semibold text-[22px] max-w-[338px] mb-4"
+                    class="text-[#000958] mx-auto font-semibold text-[22px] max-w-[338px] mb-4"
                   >
                     5 Simple Tricks To Create A More Conscious ...
                   </h1>
-                  <p class="text-[#656689] max-w-[351px] font-normal text-sm">
+                  <p class="text-[#656689] mx-auto max-w-[351px] font-normal text-sm">
                     It is easy to forget that animals are living creatures with
                     a beating heart.
                   </p>
@@ -944,14 +944,14 @@
       <footer>
     
           <div class="flex">
-            <div class="w-2/4  pt-[120px] pb-[10px] px-[114px]  bg-[#FFF6ED]">
+            <div class="w-2/4  pt-[120px] pb-[10px] lg:px-[114px] px-[20px]  bg-[#FFF6ED]">
               <div class="logo flex items-center mb-[40px]">
                 <img src="./assets/logo.png" alt="" />
                 <div class="font-bold text-lg text logo ml-2">Lucy</div>
               </div>
               <form class="flex relative max-w-[268px] mb-[68px]">
                 <input
-                class="rounded-[23px] w-[268px] py-3 px-3 bg-white"
+                class="rounded-[23px] w-full py-3 px-3 bg-white"
                 style="border: 1px solid rgba(255, 91, 46, 0.25);"
                   type="text"
                   placeholder="Enter Your Mail"
@@ -1007,7 +1007,7 @@
               </div>
             </div>
             <div class="w-2/4 pt-[52px]">
-              <div class="flex px-[130px]  flex-wrap">
+              <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 px-[50px] lg:px-[130px]  flex-wrap">
                 <div class="w-full md:w-2/4 mb-[86px]">
                   <h2 class="text-[#000958] text-lg font-semibold mb-[14px]">Explore</h2>
                   <div>
